@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Registration</title>
+    <link rel="stylesheet" href="admin_registration.css">
+</head>
+
+<body>
+    <div id="container">
+        <h2 id="heading">Admin Registration</h2>
+        <form id="visitor-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="date">Date of Visit:</label>
+            <input type="date" id="date" required>
+
+            <label for="duration">Duration of Visit (hours):</label>
+            <input type="number" id="duration" min="1" max="10" required>
+
+            <label for="memberCount">Number of Members:</label>
+            <input type="number" id="memberCount" min="1" required>
+
+            <label for="purpose">Purpose of Visit:</label>
+            <input type="text" id="purpose" required>
+
+            <!-- <button id="submit-btn" type="submit">Submit</button> -->
+            <button id="submit-btn" onclick="window.location.href='../admin.html'">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

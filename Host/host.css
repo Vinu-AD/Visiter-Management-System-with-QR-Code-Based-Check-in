@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 
-#visitor-container {
+#host-container {
     max-width: 1000px;
     margin: 0 auto;
     background: white;
@@ -17,7 +17,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #007bffbb;
+    background-color: #320ab4cd;
     color: white;
     padding: 15px;
     border-radius: 5px;
@@ -65,31 +65,5 @@ main {
 .dashboard-card p {
     font-size: 24px;
     font-weight: bold;
-    color: #007bff;
-}
-
-.card-container {
-    max-width: 150px;
-    height: 200x;
-    margin: 0 auto;
-    background: white;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-}
-
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.3s;
-}
-
-/* On mouse-over, add a deeper shadow */
-.card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Add some padding inside the card container */
-.container {
-    padding: 2px 8px;
+    color: #320ab4cd;
 }
